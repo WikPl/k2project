@@ -9,6 +9,10 @@ body {
   background-color: #333;
 }
 
+.blue-text {
+  color: #039dff;
+}
+
 nav {
   text-transform: uppercase;
 }
@@ -26,7 +30,6 @@ nav .fa-bars {
 }
 nav .navbar-brand:focus,
 nav .navbar-brand:hover,
-nav .logo-color,
 nav .nav-link:focus,
 nav .nav-link:hover,
 nav .navbar-nav .nav-link.active,
@@ -42,12 +45,10 @@ header.hero-img {
   background-size: cover;
   background-attachment: fixed;
   color: #fff;
+  z-index: 0;
 }
 header.hero-img h1 {
   text-transform: uppercase;
-}
-header.hero-img h1 .logo-color {
-  color: #039dff;
 }
 header.hero-img .hero-shadow {
   position: absolute;
@@ -55,12 +56,13 @@ header.hero-img .hero-shadow {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: -1;
 }
 header.hero-img .hero-text {
-  text-align: center;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
 }/*# sourceMappingURL=main.css.map */
