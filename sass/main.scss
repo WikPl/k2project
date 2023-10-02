@@ -25,10 +25,26 @@ nav {
 	.fa-bars {
 		color: $white;
 	}
+	.navbar-brand:focus,
+	.navbar-brand:hover,
+	.nav-logo-color,
 	.nav-link:focus,
 	.nav-link:hover,
 	.navbar-nav .nav-link.active,
 	.navbar-nav .nav-link.show {
 		color: $main-color;
+	}
+}
+
+.hero-img {
+	height: 100vh;
+	width: 100vw;
+	filter: brightness(50%);
+	background-image: url('../img/gaming-4970616_1920.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+
+	h1 {
+		text-transform: uppercase;
 	}
 }
