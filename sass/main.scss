@@ -71,8 +71,13 @@ header.hero-img {
 		align-items: center;
 		height: 100%;
 	}
-	.fa-solid {
-		justify-content: center;
+	.fa-chevron-down {
+		position: absolute;
+		left: 50%;
+		transform: translateX(-50%);
+		bottom: 20px;
+		font-size: 30px;
+		color: $white;
 	}
 }
 

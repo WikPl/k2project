@@ -67,8 +67,13 @@ header.hero-img .hero-text {
   align-items: center;
   height: 100%;
 }
-header.hero-img .fa-solid {
-  justify-content: center;
+header.hero-img .fa-chevron-down {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 20px;
+  font-size: 30px;
+  color: #fff;
 }
 
 @media (min-width: 1200px) {
