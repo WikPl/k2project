@@ -66,4 +66,10 @@ header.hero-img .hero-text {
   justify-content: center;
   align-items: center;
   height: 100%;
+}
+
+@media (min-width: 1200px) {
+  header.hero-img {
+    background-image: url("../img/gaming-4970616_1920.jpg");
+  }
 }/*# sourceMappingURL=main.css.map */
