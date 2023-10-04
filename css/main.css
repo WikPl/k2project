@@ -76,6 +76,14 @@ header.hero-img .fa-chevron-down {
   color: #fff;
 }
 
+@media (min-width: 768px) {
+  .hero-text h1 {
+    font-size: 42px;
+  }
+  p {
+    font-size: 20px;
+  }
+}
 @media (min-width: 1200px) {
   header.hero-img {
     background-image: url("../img/gaming-4970616_1920.jpg");
