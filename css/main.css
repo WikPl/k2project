@@ -67,6 +67,9 @@ header.hero-img .hero-text {
   align-items: center;
   height: 100%;
 }
+header.hero-img .fa-solid {
+  justify-content: center;
+}
 
 @media (min-width: 1200px) {
   header.hero-img {
