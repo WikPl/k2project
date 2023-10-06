@@ -8,4 +8,5 @@ document.addEventListener('DOMContentLoaded', function () {
 			nav.classList.remove('shadow-bg')
 		}
 	}
+    window.addEventListener('scroll', addShadow)
 })
