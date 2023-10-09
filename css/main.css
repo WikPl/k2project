@@ -17,6 +17,18 @@ body {
   background-color: rgba(0, 0, 0, 0.8);
 }
 
+.section-title {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.underline {
+  margin: 0 auto;
+  width: 50px;
+  height: 5px;
+  background-color: #039dff;
+}
+
 nav {
   z-index: 1;
   text-transform: uppercase;

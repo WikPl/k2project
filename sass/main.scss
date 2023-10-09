@@ -16,13 +16,25 @@ body {
 }
 
 .shadow-bg {
-	background-color: rgba(0,0,0,.8);
+	background-color: rgba(0, 0, 0, 0.8);
+}
+
+.section-title {
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.underline {
+	margin: 0 auto;
+	width: 50px;
+	height: 5px;
+	background-color: $main-color;
 }
 
 nav {
 	z-index: 1;
 	text-transform: uppercase;
-	transition: .6s;
+	transition: 0.6s;
 	.navbar-toggler {
 		padding: 10px 15px;
 	}
@@ -94,7 +106,6 @@ header.hero-img {
 	}
 	p {
 		font-size: 20px;
-
 	}
 }
 
