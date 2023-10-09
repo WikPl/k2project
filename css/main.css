@@ -23,8 +23,8 @@ body {
 }
 
 .underline {
-  margin: 0 auto;
-  width: 50px;
+  margin: 0 auto 40px;
+  width: 65px;
   height: 5px;
   background-color: #039dff;
 }
@@ -93,11 +93,23 @@ header.hero-img .fa-chevron-down {
   color: #fff;
 }
 
+.aboutus i {
+  margin-top: 20px;
+  font-size: 30px;
+}
+.aboutus .aboutus-card-title {
+  font-size: 18px;
+  text-transform: uppercase;
+}
+.aboutus .aboutus-card-text {
+  font-size: 14px;
+}
+
 @media (min-width: 768px) {
   .hero-text h1 {
     font-size: 42px;
   }
-  p {
+  .hero-text p {
     font-size: 20px;
   }
 }

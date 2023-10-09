@@ -25,8 +25,8 @@ body {
 }
 
 .underline {
-	margin: 0 auto;
-	width: 50px;
+	margin: 0 auto 40px;
+	width: 65px;
 	height: 5px;
 	background-color: $main-color;
 }
@@ -98,14 +98,30 @@ header.hero-img {
 	}
 }
 
+.aboutus {
+	i {
+		margin-top: 20px;
+		font-size: 30px;
+	}
+
+	.aboutus-card-title {
+		font-size: 18px;
+		text-transform: uppercase;
+	}
+	
+	.aboutus-card-text {
+		font-size: 14px;
+	}
+}
+
 @media (min-width: 768px) {
 	.hero-text {
 		h1 {
 			font-size: 42px;
 		}
-	}
-	p {
-		font-size: 20px;
+		p {
+			font-size: 20px;
+		}
 	}
 }
 
