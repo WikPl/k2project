@@ -94,7 +94,7 @@ header.hero-img .fa-chevron-down {
 }
 
 .aboutus i {
-  margin-top: 20px;
+  margin-top: 25px;
   font-size: 30px;
 }
 .aboutus .aboutus-card-title {
@@ -103,6 +103,9 @@ header.hero-img .fa-chevron-down {
 }
 .aboutus .aboutus-card-text {
   font-size: 14px;
+}
+.aboutus .aboutus-hover:hover {
+  color: #039dff;
 }
 
 @media (min-width: 768px) {

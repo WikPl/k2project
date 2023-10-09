@@ -100,7 +100,7 @@ header.hero-img {
 
 .aboutus {
 	i {
-		margin-top: 20px;
+		margin-top: 25px;
 		font-size: 30px;
 	}
 
@@ -108,9 +108,13 @@ header.hero-img {
 		font-size: 18px;
 		text-transform: uppercase;
 	}
-	
+
 	.aboutus-card-text {
 		font-size: 14px;
+	}
+
+	.aboutus-hover:hover {
+		color: $main-color;
 	}
 }
 
