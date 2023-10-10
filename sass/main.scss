@@ -126,7 +126,13 @@ header.hero-img {
 	}
 }
 
-@media (min-width: ) @media (min-width: 768px) {
+section.portfolio {
+	color: $white;
+	background-image: url('../img/technology-2818664_640.jpg');
+
+}
+
+@media (min-width: 768px) {
 	.hero-text {
 		h1 {
 			font-size: 42px;
