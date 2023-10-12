@@ -164,8 +164,13 @@ header.hero-img {
 		height: 600px;
 	}
 	.carousel-caption {
-		left: 0;right: 0;
+		left: 0;
+		right: 0;
+		padding: 40px 0;
 		background-color: rgba(0, 0, 0, 0.8);
+	}
+	.carousel-indicators {
+		padding-bottom: 20px;
 	}
 }
 
@@ -189,7 +194,6 @@ header.hero-img {
 	.aboutus-hero {
 		background-image: url('../img/technology-2818664_1920.jpg');
 	}
-
 }
 
 @media (min-width: 1200px) {
